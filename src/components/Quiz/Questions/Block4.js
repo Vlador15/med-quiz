@@ -1,0 +1,66 @@
+export const title4 = "Нарушение сна";
+export const question4 = [
+  {
+    question: "Появившееся апноэ, храп во сне с временной остановкой дыхания",
+    placeholder: "0-100",
+    type: "input text",
+    answer: "",
+    schedule: [...Array(31).fill(0)],
+  },
+  {
+    question: "Бессонница",
+    placeholder: "0-100",
+    type: "input text",
+    answer: "",
+    schedule: [...Array(31).fill(0)],
+  },
+  {
+    question: "Постоянная усталость (вялость)",
+    placeholder: "0-100",
+    type: "input text",
+    answer: "",
+    schedule: [...Array(31).fill(0)],
+  },
+  {
+    question: "Психологические расстройства в темноте",
+    placeholder: "0-100",
+    type: "input text",
+    answer: "",
+    schedule: [...Array(31).fill(0)],
+  },
+  {
+    question: "Беспокойный тревожный сон",
+    placeholder: "0-100",
+    type: "input text",
+    answer: "",
+    schedule: [...Array(31).fill(0)],
+  },
+  {
+    question: "Частые пробуждения",
+    placeholder: "0-100",
+    type: "input text",
+    answer: "",
+    schedule: [...Array(31).fill(0)],
+  },
+  {
+    question: "Плохие сны ",
+    placeholder: "0-100",
+    type: "input text",
+    answer: "",
+    schedule: [...Array(31).fill(0)],
+  },
+  {
+    question: "Нарушение процесса засыпания",
+    placeholder: "0-100",
+    type: "input text",
+    answer: "",
+    schedule: [...Array(31).fill(0)],
+  },
+  {
+    question: "Трудности с засыпанием в привычной позе",
+    placeholder: "0-100",
+    type: "input text",
+    answer: "",
+    schedule: [...Array(31).fill(0)],
+  },
+];

@@ -1,0 +1,40 @@
+.overlay {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.quiz__table {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.quiz__table:not(:first-child) {
+  margin-top: 3rem;
+}
+
+.quiz__caption {
+  margin-bottom: 2rem !important;
+}
+
+.quiz__table-modal {
+  display: flex;
+  overflow: auto;
+  width: 100%;
+
+  tr {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 40px;
+    font-weight: bold;
+    color: #0400ff;
+    font-size: 16px;
+
+    &::placeholder {
+      opacity: 0.6;
+    }
+  }
+}

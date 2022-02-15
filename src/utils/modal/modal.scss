@@ -1,0 +1,59 @@
+.modal-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 24px;
+
+  @media screen and (max-width: 750px) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 16px;
+  }
+}
+
+.modal-description {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+  font-size: 16px;
+
+  @media screen and (max-width: 750px) {
+    font-size: 14px;
+  }
+}
+
+table caption {
+  margin-bottom: 3rem;
+}
+
+table {
+  min-width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid #969696;
+  font-size: 16px;
+
+  @media screen and (max-width: 600px) {
+    font-size: 14px;
+  }
+}
+
+input,
+select {
+  background: #ffeeee;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+}
+
+.mymodal {
+  max-width: 700px;
+}
+
+.modal-btn {
+  background: none;
+}

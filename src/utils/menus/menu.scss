@@ -1,0 +1,20 @@
+.MuiButton-containedPrimary {
+  color: #fff !important;
+  background-color: #2a75c6 !important;
+  display: none !important;
+  padding: 0.2rem 1rem !important;
+  font-size: 14px !important;
+}
+
+@media screen and (max-width: 570px) {
+  .MuiButton-containedPrimary {
+    display: block !important;
+  }
+}
+
+.menu-mobile-link {
+  width: 100px;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
