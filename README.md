@@ -4,8 +4,8 @@
     После анализа выдается график с динамикой протекания болезни covid-19 и выносится диагноз: болен/не болен
 </p>
 
-<img src="https://i.imgur.com/vlgFBLK.png" width="200" />
-<img src="https://i.imgur.com/zuO13om.png" width="200" />
+<img src="https://i.imgur.com/vlgFBLK.png" width="400" />
+<img src="https://i.imgur.com/zuO13om.png" width="400" />
 
 <p>Стек:</p>
 <ul>
